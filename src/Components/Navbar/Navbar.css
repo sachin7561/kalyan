@@ -1,0 +1,36 @@
+  Sidebar styles
+  .sidebar {
+    display: none;
+    background-color: #062F75;
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+      display: block;
+      width: 5.666667%; 
+    }
+    .col-md-10.offset-md-2 {
+      margin-left: 16.666667%; 
+    }
+    .img{
+      width: 100%;
+    }
+  }
+
+
+  .navbar {
+    width: 100%;
+  }
+
+
+
+  @media (max-width: 767.98px) {
+    .navbar {
+      margin-bottom: 1rem;
+      width: 50%;
+    }
+    .sidebar {
+      display: block;
+      width: 6.666667%; /* Equivalent to col-md-2 */
+    }
+  }
